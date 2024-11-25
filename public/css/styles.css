@@ -1,0 +1,13 @@
+.indexlist{
+    list-style: devanagari;
+    font-size: 24px;
+    font-weight: 900;
+
+    a {
+        text-decoration: none;
+    }
+}
+
+.threadlist{
+    list-style: none;
+}

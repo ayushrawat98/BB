@@ -38,8 +38,7 @@ exports.getThreadById = async (req, res, next) => {
           let comments = result.filter(x => x.threadId != null)
           res.render('thread',{
               title : title,
-              comments : comments,
-              link : '<a href="https://google.com>google</a>'
+              comments : comments
           })   
     }else{
         res.status(500).send('वेश्या के पुत्र')

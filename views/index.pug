@@ -7,7 +7,7 @@ block content
 		label(for='message') संदेश:
 		input#message.form-control(type='text',name='message' required)
 		button.btn.btn-primary(type='submit') भेजें
-	ul
+	ul.indexlist
 		each message in data
 			li
 				a(href=message.id) #{message.message}
